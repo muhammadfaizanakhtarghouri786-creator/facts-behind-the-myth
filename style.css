@@ -1,0 +1,12 @@
+:root { --bg:#0B0C0E; --fg:#F2F0EB; --muted:#9a9ca3; --accent:#F2A93B; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 system-ui,-apple-system,"Segoe UI",Inter,sans-serif; }
+main { max-width:720px; margin:0 auto; padding:48px 16px 80px; }
+h1 { font:800 clamp(30px,6vw,46px)/1.1 Impact,"Bebas Neue","Arial Narrow",sans-serif; letter-spacing:.5px; text-transform:uppercase; margin:0 0 8px; }
+h1 span { color:var(--accent); }
+h2 { font-size:20px; margin:32px 0 6px; }
+p, li { color:#d9d7d2; }
+.tag { color:var(--muted); margin:0 0 32px; }
+a { color:var(--accent); }
+nav { display:flex; gap:20px; flex-wrap:wrap; margin-top:40px; padding-top:20px; border-top:1px solid #23252b; font-size:15px; }
+.updated { color:var(--muted); font-size:14px; }
